@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* RainBow Palette */
+  --Rufous: #a40000;
+  --Red: #ff0000;
+  --DarkOrange: #ff8700;
+  --CyberYellow: #ffd300;
+  --CharTreuseTraditional: #deff0a;
+  --SpringBud: #a1ff0a;
+  --MediumSpringGreen: #0aff99;
+  --ElectricBlue: #0aefff;
+  --Azure: #147df5;
+  --HanPurple: #580aff;
+  --ElectricPurple: #be0aff;
+  --FrenchViolett: #8e09bf;
+}
+
+html {
+  font-size: 64.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+table {
+  width: 600px;
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+}
+
+code {
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 10rem 0;
+  font-size: 6.7rem;
+}
+
+section {
+  padding-bottom: 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.basic-html tr:nth-child(even) {
+  background-color: var(--Rufous);
+  color: white;
+}
+
+.basic-html h2 {
+  background-color: var(--Rufous);
+  color: white;
+}
+
+.formatting tr:nth-child(even) {
+  background-color: var(--Red);
+  color: black;
+}
+
+.formatting h2 {
+  background-color: var(--Red);
+  color: black;
+}
+
+.forms-and-input tr:nth-child(even) {
+  background-color: var(--DarkOrange);
+  color: black;
+}
+
+.forms-and-input h2 {
+  background-color: var(--DarkOrange);
+  color: black;
+}
+
+.frames tr:nth-child(even) {
+  background-color: var(--CyberYellow);
+  color: black;
+}
+
+.frames h2 {
+  background-color: var(--CyberYellow);
+  color: black;
+}
+
+.images tr:nth-child(even) {
+  background-color: var(--CharTreuseTraditional);
+  color: black;
+}
+
+.images h2 {
+  background-color: var(--CharTreuseTraditional);
+}
+
+.audio-and-video tr:nth-child(even) {
+  background-color: var(--SpringBud);
+  color: black;
+}
+
+.audio-and-video h2 {
+  background-color: var(--SpringBud);
+}
+
+.links tr:nth-child(even) {
+  background-color: var(--MediumSpringGreen);
+  color: black;
+}
+
+.links h2 {
+  background-color: var(--MediumSpringGreen);
+}
+
+.lists tr:nth-child(even) {
+  background-color: var(--ElectricBlue);
+  color: black;
+}
+
+.lists h2 {
+  background-color: var(--ElectricBlue);
+}
+
+.tables tr:nth-child(even) {
+  background-color: var(--Azure);
+  color: black;
+}
+
+.tables h2 {
+  background-color: var(--Azure);
+}
+
+.styles-and-semantics tr:nth-child(even) {
+  background-color: var(--HanPurple);
+  color: white;
+}
+
+.styles-and-semantics h2 {
+  background-color: var(--HanPurple);
+  color: white;
+}
+
+.meta-info tr:nth-child(even) {
+  background-color: var(--ElectricPurple);
+  color: white;
+}
+
+.meta-info h2 {
+  background-color: var(--ElectricPurple);
+  color: white;
+}
+
+.programming tr:nth-child(even) {
+  background-color: var(--FrenchViolett);
+  color: white;
+}
+
+.programming h2 {
+  background-color: var(--FrenchViolett);
+  color: white;
+}
+
+@media (max-width: 650px) {
+  table {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
